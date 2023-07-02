@@ -4,7 +4,7 @@ import { isNumeric } from '../../helpers/general';
 
 const CurrencyFormatter = ({
   amount,
-  currency = 'USD',
+  currency = 'TND',
   appendZero = false,
   useDollar = false,
 }) => {
